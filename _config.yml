@@ -3,6 +3,9 @@ title: Front Runners United
 sass:
   sass_dir: assets/css
   style: compressed
+coffee:
+  coffee_dir: assets/js
+  style: compressed
 
 defaults:
   - scope:

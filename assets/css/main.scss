@@ -51,6 +51,13 @@ nav, nav table, nav a {
   font-size: 24px;
 }
 
+.nav-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
+}
+
 #foot {
   width: 100%;
   max-height: 52px;
