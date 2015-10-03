@@ -1,0 +1,12 @@
+title: Front Runners United
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+defaults:
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page

@@ -1,0 +1,127 @@
+---
+---
+@import "fonts";
+
+html {
+  overflow-y: scroll;
+}
+
+header {
+  width: 55%;
+  margin: 0px auto;
+  vertical-align: middle;
+  font-family: Coalition;
+  font-size: 60px;
+  color: white;
+}
+
+body {
+  font: 14px/1.4 verdana, sans-serif;
+  background-image: url('/assets/images/background.jpg');
+}
+
+section {
+  width: 55%;
+  margin: 0px auto;
+  background-image: url('/_images/bg/maze_black.jpg');
+  box-shadow: 0px 0px 0px black;
+  -webkit-box-shadow: 0px 0px 10px white;
+  vertical-align:middle;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  overflow: auto;
+  text-align: center;
+}
+
+nav, nav table, nav a {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  overflow: hidden;
+  text-align: center;
+  text-shadow: 0px 0px 15px #EEEEEE;
+  text-decoration: none;
+  color: gray;
+  font-family: Micra;
+  font-size: 24px;
+}
+
+#foot {
+  width: 100%;
+  max-height: 52px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+a:visited {
+  text-decoration: none;
+}
+
+.roundedimage {
+  border-radius: 5px;
+}
+
+
+.silvertable {
+  border: 2px solid silver;
+  border-collapse: collapse;
+}
+
+.silvertable td, th {
+  padding: 5px;
+  border: 2px solid silver;
+  border-collapse: collapse;
+}
+
+h1, h2 {
+  font-weight: normal;
+  font-family: Tahoma, sans-serif;
+  text-shadow: 1px 1px 2px #333;
+}
+
+h3 {
+  padding: 0px;
+}
+
+#home1 { /* images */
+  float: right;
+  padding-left: 7px;
+  padding-right: 5px;
+}
+
+#home1-5 {
+  float: right;
+  padding-left: 7px;
+  padding-right: 5px;
+}
+
+#home2 {
+  padding-top: 10px;
+  padding-left: 7px;
+  float: right;
+  padding-right: 5px;
+}
+
+#home3 {
+  float: right;
+  padding-left: 7px;
+  padding-right: 5px;
+}
+
+#imagetables { /* for pages with image-filled tables */
+  font-size: 10px;
+  text-align: center;
+}
+
+.centertable { /* for pages with image-filled tables */
+  margin: 0px auto;
+}
+
+#foot-container {
+  font-family: verdana, sans-serif, arial;
+  font-size: 10px;
+  line-height: 85%;
+}
