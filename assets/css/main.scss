@@ -2,33 +2,38 @@
 ---
 @import "fonts";
 
+$background: url('/assets/images/backgrounds/denim.jpg');
+$font-color: rgb(255, 137, 59);
+
 html {
   overflow-y: scroll;
 }
 
 header {
-  width: 55%;
+  width: 100%;
   margin: 0px auto;
   vertical-align: middle;
+  text-align: center;
   font-family: Coalition;
   font-size: 60px;
-  color: white;
+  color: $font-color;
+  position: center;
 }
 
 body {
   font: 14px/1.4 verdana, sans-serif;
-  background-image: url('/assets/images/background.jpg');
+  background-image: $background;
 }
 
 section {
   width: 55%;
   margin: 0px auto;
-  background-image: url('/_images/bg/maze_black.jpg');
+  background-image: $background;
   box-shadow: 0px 0px 0px black;
   -webkit-box-shadow: 0px 0px 10px white;
   vertical-align:middle;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
   overflow: auto;
   text-align: center;
 }
@@ -41,8 +46,8 @@ nav, nav table, nav a {
   text-align: center;
   text-shadow: 0px 0px 15px #EEEEEE;
   text-decoration: none;
-  color: gray;
-  font-family: Micra;
+  color: $font-color;
+  font-family: Coalition;
   font-size: 24px;
 }
 
