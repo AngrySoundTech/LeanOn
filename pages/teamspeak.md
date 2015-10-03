@@ -2,4 +2,7 @@
 layout: page
 permalink: /teamspeak/
 ---
-[TeamSpeak](ts3server://frontrunnersunited.com:9987)
+
+Don't Be shy! Stop by our teamspeak!
+
+[Click here to join!](ts3server://frontrunnersunited.com:9987)
