@@ -3,20 +3,17 @@
 @import "fonts";
 
 $background: url('/assets/images/backgrounds/denim.jpg');
-$font-color: rgb(255, 137, 59);
-
-html {
-  overflow-y: scroll;
-}
+$primaryColor: rgb(234, 15, 15);
+$fancyFont: Coalition;
 
 header {
   width: 100%;
   margin: 0px auto;
   vertical-align: middle;
   text-align: center;
-  font-family: Coalition;
+  font-family: $fancyFont;
   font-size: 60px;
-  color: $font-color;
+  color: $primaryColor;
   position: center;
 }
 
@@ -28,7 +25,6 @@ body {
 section {
   width: 55%;
   margin: 0px auto;
-  background-image: $background;
   box-shadow: 0px 0px 0px black;
   -webkit-box-shadow: 0px 0px 10px white;
   vertical-align:middle;
@@ -46,94 +42,19 @@ nav, nav table, nav a {
   text-align: center;
   text-shadow: 0px 0px 15px #EEEEEE;
   text-decoration: none;
-  color: $font-color;
-  font-family: Coalition;
+  color: $primaryColor;
+  font-family: $fancyFont;
   font-size: 24px;
 }
 
-.nav-fixed {
-  position: fixed;
-  top: 0;
-  z-index: 100;
-
-}
-
-#foot {
-  width: 100%;
-  max-height: 52px;
-}
-
-a:link {
+a:link, a:visited {
   text-decoration: none;
+  color: $primaryColor;
 }
 
-
-a:visited {
-  text-decoration: none;
-}
-
-.roundedimage {
-  border-radius: 5px;
-}
-
-
-.silvertable {
-  border: 2px solid silver;
-  border-collapse: collapse;
-}
-
-.silvertable td, th {
-  padding: 5px;
-  border: 2px solid silver;
-  border-collapse: collapse;
-}
-
-h1, h2 {
+h1, h2, h3 {
   font-weight: normal;
-  font-family: Tahoma, sans-serif;
+  font-family: $fancyFont, sans-serif;
   text-shadow: 1px 1px 2px #333;
-}
-
-h3 {
-  padding: 0px;
-}
-
-#home1 { /* images */
-  float: right;
-  padding-left: 7px;
-  padding-right: 5px;
-}
-
-#home1-5 {
-  float: right;
-  padding-left: 7px;
-  padding-right: 5px;
-}
-
-#home2 {
-  padding-top: 10px;
-  padding-left: 7px;
-  float: right;
-  padding-right: 5px;
-}
-
-#home3 {
-  float: right;
-  padding-left: 7px;
-  padding-right: 5px;
-}
-
-#imagetables { /* for pages with image-filled tables */
-  font-size: 10px;
-  text-align: center;
-}
-
-.centertable { /* for pages with image-filled tables */
-  margin: 0px auto;
-}
-
-#foot-container {
-  font-family: verdana, sans-serif, arial;
-  font-size: 10px;
-  line-height: 85%;
+  color: $primaryColor;
 }
