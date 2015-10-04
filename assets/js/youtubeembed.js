@@ -26,6 +26,7 @@ function optimizeYouTubeEmbeds() {
         }
     }
 }
+
 function LoadYoutubeVidOnPreviewClick(id,w ,h) {
     var code='<iframe src="https://www.youtube.com/embed/'+id+'/?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1&theme=light" width="'+w+'" height="'+h+'" frameborder=0 allowfullscreen style="border:1px solid #ccc;" ></iframe>';
     var iframe = document.createElement('div');
