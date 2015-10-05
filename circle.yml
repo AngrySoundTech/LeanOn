@@ -1,0 +1,15 @@
+machine:
+  ruby:
+    version: 2.2.2
+  node:
+    version: 0.12.0
+
+dependencies:
+  override:
+    - bundle
+    - npm install
+
+
+test:
+  override:
+    - jekyll build
