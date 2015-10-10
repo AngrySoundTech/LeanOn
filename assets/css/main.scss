@@ -6,6 +6,10 @@ $background: url('/assets/images/backgrounds/denim.jpg');
 $primaryColor: rgb(234, 15, 15);
 $fancyFont: Coalition;
 
+html {
+  overflow-y: scroll;
+}
+
 header {
   width: 100%;
   margin: 0px auto;
