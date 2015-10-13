@@ -7,3 +7,5 @@ assets/images/pages/
 assets/images/posts/
 _site
 .idea
+# Super secret API keys#
+_data/keys.yml
