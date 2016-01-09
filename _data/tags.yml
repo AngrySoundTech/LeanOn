@@ -3,7 +3,7 @@
   name: Sticks Around
   icon: OldMan
   toget: You've been with FRU since the dawn of time. Or so it seems.
-# Fun Tags
+# Fun
 -
   name: Totally works for Wargaming
   icon: Wargaming
@@ -17,6 +17,11 @@
   icon: GoldDollar
   toget: Panties drop when you enter the channel
 -
+  name: Kawaii Crew
+  icon: Hyouka
+  toget: Everything with you is Daijobu
+# Tank affinity
+-
   name: Russian Bias
   icon: HammerSickle
   toget: You have an affinity for Russian tanks.
@@ -28,16 +33,20 @@
   name: "'Murican Pride"
   icon: Eagle
   toget: Uncle Sam would be proud
+# Derogatory
 -
   name: Special Star
   icon: Star
   toget: You feel like you don't have to listen
 -
+  name: Special Snowflake
+  icon: Snowflake
+  toget: "You're unique."
+-
   name: On Top of It
   icon: IE
   toget: You pay attention real well.
 -
-  name: Special Snowflake
-  icon: Snowflake
-  toget: "You're unique."
-
+  name: Literally a Goldfish
+  icon: Goldfish
+  toget: You have the memory of a goldfish
